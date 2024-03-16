@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">parcialMobile</string>
+
+
+    <string-array name="spinner_items">
+
+        <item>Seleccionar</item>
+        <item>Internista</item>
+        <item>Medico General</item>
+        <item>Otorrino</item>
+
+
+    </string-array>
+
+
+    <string-array name="spinner_login">
+
+        <item>Seleccionar</item>
+        <item>Tarjeta de identidad</item>
+        <item>Cedula de ciudadania</item>
+        <item>Otro</item>
+
+
+    </string-array>
+
+
+    <string-array name="spinner_medico">
+
+        <item>Seleccionar</item>
+        <item>Joel Solano</item>
+        <item>Alex Rios</item>
+        <item>Carlos Centeno</item>
+
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+</resources>
