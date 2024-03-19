@@ -24,6 +24,7 @@ class citaReservada : AppCompatActivity() {
 
         val fechaResivida = findViewById<TextView>(R.id.fechaResivida)
         val resivirFecha:String = intent.extras?.getString("EXTRA_MENSAJE").orEmpty()
+
         fechaResivida.text = resivirFecha
 
         val textView: TextView = findViewById(R.id.especialidadResivida)
@@ -31,7 +32,7 @@ class citaReservada : AppCompatActivity() {
         textView.text = selectedItem
 
         val textMedico: TextView = findViewById(R.id.textMedico)
-        val selectedMedico = intent.getStringExtra("selectedMedico")
+        val selectedMedico = intent.getStringExtra("selectedItem2")
         textMedico.text = selectedMedico
 
 
